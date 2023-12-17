@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.bannersec .left{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bannersec .right h1,h3{
+  display: flex;
+ justify-content: center;
+}
+.discountsec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.disleft{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-right: 20px;
+
+}
+.disleft Button{
+  margin-top: 20px;
+}
+
+.disright{
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+
+}
+.disright Button{
+  margin-top: 20px;
+}
+.resultsec{
+ color: red;
+ margin-top: 20px;
+margin-bottom: 15px;
+}
+.resultdisc{
+  background-color: antiquewhite;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px;
+  color:blue;
+}
+.amountsec{
+  display: flex;
+  justify-content: center;
+}
+.amountsec h3{
+margin-right: 20px;
+margin-top: 20px;
+margin-right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
